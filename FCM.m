@@ -47,7 +47,7 @@ title('FCM Clustering Result in 3D');
 legend('Cluster 1', 'Cluster 2', 'Centers');
 grid on;
 hold off;
-%% 算法说明：不要求详细掌握
+%% 算法简述：不要求详细掌握
 %模糊均值聚类（FCM）是用隶属度确定每个数据点属于某个聚类的程度的一种聚类算法。
 % 1973年，Bezdek提出了该算法，作为早期硬均值聚类（HCM）方法的一种改进。FCM把 n 个向量 xi(i=1,2,…,n)
 % 分为 c 个模糊组,并求每组的聚类中心，使得非相似性指标的价值函数达到最小。FCM 使得每个给定数据点用值
